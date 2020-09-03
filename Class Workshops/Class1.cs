@@ -27,6 +27,18 @@ namespace Class_Workshops
                 Console.WriteLine($"What {name}!!! You don't own a dog? Someone {age} years old, should really own a dog.");
             }
         }
+
+        public void ScratchingAtDoor()
+        {
+            if (hasToPoop == true)
+            {
+                Console.WriteLine($"{name} walks to the door to let {dogName} out.");
+            }
+            else
+            {
+                Console.WriteLine($"{name} gives {dogName} a toy.");
+            }
+        }
     }
 }
 

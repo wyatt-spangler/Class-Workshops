@@ -12,6 +12,7 @@ namespace Class_Workshops
         public bool hasDog;
         public string dogName;
         public bool hasToPoop;
+        public int numberOfToys;
 
         //Methods
 

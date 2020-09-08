@@ -6,9 +6,14 @@ namespace Class_Workshops
     {
         static void Main(string[] args)
         {
-            myHoomans();
+            RunFlowControl();
         }
-        static void myHoomans()
+
+        static void RunFlowControl()
+        {
+            FlowControl.FCIfElse();
+        }
+        /*static void myHoomans()
         {
             HoomanClass MrSekol = new HoomanClass();
             MrSekol.age = 99; //haha old
@@ -17,6 +22,6 @@ namespace Class_Workshops
             MrSekol.name = "Michael";
 
             MrSekol.Greeting();
-        }
+        }*/
     }
 }
